@@ -6,10 +6,11 @@
     'summary': 'Bridge Module for sale commission' ,
     'depends': [
         "base",
-        "sale",
+        "sale_management",
     ],
+    "installable" : True,
+    "auto_install": True,
     'data' : [
         "views/res_config_settings_inherit.xml",
     ],
-    "auto_install" : True,
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="sales_targets_list_view" model="ir.ui.view">
+        <field name="name">sales.targets.view.tree</field>
+        <field name="model">sales.targets</field>
+        <field name="arch" type="xml">
+            <tree string="Sales Targets" editable="bottom">
+                <field name="quarter_period" options="{'no_create_edit': True}" />
+                <field name="quarter_start_date" />
+                <field name="quarter_end_date" />
+                <field name="target_amount" />
+            </tree>
+        </field>
+    </record>
+</odoo>

@@ -1,2 +1,3 @@
 https://github.com/odoo/odoo/blob/17.0/addons/sale/views/sale_menus.xml
 https://github.com/odoo/odoo/blob/17.0/addons/account/views/res_config_settings_views.xml
+https://github.com/odoo/odoo/blob/17.0/addons/sale/views/sale_menus.xml

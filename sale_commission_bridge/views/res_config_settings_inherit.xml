@@ -8,10 +8,10 @@
             <xpath expr="//block[@name='invoicing_setting_container']" position="inside">
                 <div class="col-12 col-lg-6 o_setting_box" id="sale_commission_bridge">
                    <div class="o_setting_left_pane">
-                       <field name="sale_commission_bridge"  onchange="onchange_sale_commission_bridge()"/>
+                       <field name="module_sale_commission"/>
                    </div>
                    <div class="o_setting_right_pane">
-                       <label for="sale_commission_bridge" string="Sales Commission"/>
+                       <label for="module_sale_commission" string="Sales Commission"/>
                        <div class="text-muted mb16">
                             Manage sales &amp; teams targets and commissions
                        </div>
